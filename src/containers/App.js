@@ -1,11 +1,12 @@
 import React from 'react';
 //import logo from '../logo.svg';
 import './App.css';
+import PageAndreRocha from './PageAndreRocha';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello World!!!</p>
+      <PageAndreRocha />
     </div>
   );
 }
