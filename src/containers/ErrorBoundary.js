@@ -1,30 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {} from '../actions';
-//import './ErrorBoundary.css';
 
-const mapStateToProps = (state) => { // passing props from state in store to app
-    return {
-        /* hasError: state.RegisterForm.hasError */ //Change This
-    }
+const mapStateToProps = (state) => {
+    return {}
   }
-  
-  //dispatch => is what triggers the action
-  const mapDispatchToProps = (dispatch) => { // passing actions(objects) send to reducer
-    return {
-        //onSettings_Click: () => dispatch(Settings_Click())
-    }
+
+  const mapDispatchToProps = (dispatch) => {
+    return {}
   }
 
 class ErrorBoundary extends Component {
-    //state   hasError:false // this is a countainer
-    
-    /* constructor(props){
-        super();
-        this.state = {
-            hasError: false
-        }
-    } */
 
     componentDidCatch(error, info) {
         this.setState({hasError:true})
@@ -47,4 +33,4 @@ class ErrorBoundary extends Component {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ErrorBoundary); //subscribe to any state changes in the redux store interested in actions defined in mapStateToProps and mapDispatchToProps
+export default connect(mapStateToProps, mapDispatchToProps)(ErrorBoundary);
