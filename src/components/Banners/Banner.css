@@ -1,0 +1,225 @@
+/* 
+.banner-div{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background: #ffffff;
+
+    font-family: 'Parisienne';
+    font-family: 'Rochester';
+    font-family: 'Cookie';
+
+    margin-bottom: 20px;
+}
+
+.banner-div:hover{
+    box-shadow: 0 1px 2px 0 rgba(129, 126, 126, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.02);
+}
+
+.banner-image-div{
+    background: hsla(0, 0%, 50%, 0.5);
+    height: 360px;
+}
+
+#banner-link{
+    display:inline-block;
+    background: hsla(0, 0%, 50%, 0.5);
+    height: inherit;
+}
+
+#banner-link:hover{
+
+}
+
+.banner-image{
+    object-fit: cover;
+    object-position: 100% 100%;
+    width: 240px;
+}
+
+.banner-text{
+    padding: 5%;
+    background: -moz-linear-gradient(left,  rgba(237,237,237,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left,  rgba(237,237,237,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right,  rgba(237,237,237,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#00ffffff',GradientType=1 );
+}
+
+.banner-title h1{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+.banner-title{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.data-evento{
+    color: hsla(0, 0%, 50%, 1);
+    font-size: 24px;
+    font-family: 'AmaticSC';
+}
+
+.event-local{
+    text-align: right;
+    position: relative;
+    top: 10%;
+    right: 3%;
+}
+
+.banner-description{
+    width: 100%;
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: 'pakenham';
+    font-style: normal;
+    font-weight: normal;
+    src: local('pakenham'), local('pakenham'),
+         url('../../content/fonts/pakenham\ rg.ttf') format('TrueType')
+}
+
+@font-face {
+    font-family: 'TheGlamorousTale';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TheGlamorousTale'), local('TheGlamorousTale'),
+         url('../../content/fonts/TheGlamorousTale-Regular.otf') format('OpenType'),
+         url('../../content/fonts/TheGlamorousTale-Regular.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'AmaticSC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AmaticSC'), local('AmaticSC'),
+         url('../../content/fonts/AmaticSC-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/AmaticSC-Regular.woff2') format('woff2'),
+         url('../../content/fonts/AmaticSC-Regular.woff') format('woff'),
+         url('../../content/fonts/AmaticSC-Regular.ttf') format('truetype'),
+         url('../../content/fonts/AmaticSC-Regular.svg#OpenSans') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cookie'), local('Cookie'),
+         url('../../content/fonts/Cookie-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/Cookie-Regular.woff2') format('woff2'),
+         url('../../content/fonts/Cookie-Regular.woff') format('woff'),
+         url('../../content/fonts/Cookie-Regular.ttf') format('truetype'),
+         url('../../content/fonts/Cookie-Regular.svg#OpenSans') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Parisienne'), local('Parisienne'),
+         url('../../content/fonts/Parisienne-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/Parisienne-Regular.woff2') format('woff2'),
+         url('../../content/fonts/Parisienne-Regular.woff') format('woff'),
+         url('../../content/fonts/Parisienne-Regular.ttf') format('truetype'),
+         url('../../content/fonts/Parisienne-Regular.svg#OpenSans') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rochester'), local('Rochester'),
+         url('../../content/fonts/Rochester-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/Rochester-Regular.woff2') format('woff2'),
+         url('../../content/fonts/Rochester-Regular.woff') format('woff'),
+         url('../../content/fonts/Rochester-Regular.ttf') format('truetype'),
+         url('../../content/fonts/Rochester-Regular.svg#OpenSans') format('svg');
+  }
+
+
+
+
+.togglevisibility-div{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    justify-self: right;
+
+    display: grid;
+    grid-template-rows: 5px 24px auto;
+    grid-template-columns: auto 24px 5px;
+}
+
+.togglevisibility-div a.icons-link {
+    width: 24px;
+    height: 24px;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.child {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+
+    background-color: rgba(255, 255, 255, 0.65);
+
+    z-index: 99;
+    padding: 16px;
+}
+
+
+
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #7b7b7b;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #cecece;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+ */

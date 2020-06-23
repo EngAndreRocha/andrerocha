@@ -1,0 +1,102 @@
+/* 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.intervalos_dias_div{
+    font-family: 'Parisienne';
+    font-family: 'Rochester';
+    font-family: 'Cookie';
+    background-color: #fbf9f6;
+    display: grid;
+    grid-template-rows: auto;
+    margin: 0px 10px;
+    overflow-x: scroll;
+}
+
+.dia{
+    grid-row: 1 / span 1;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 0px 10px 0px 10px;
+    min-width: 180px;
+    max-width: 300px;
+}
+.nome_dia{
+    font-size: 24px;
+    text-align: left;
+    /* min-width: 80px; *//*
+}
+.intervalo{
+    /* overflow-x: scroll; *//*
+    text-indent: 19px;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+
+.intervalos_hours_div{}
+.intervalos_tipo_div{}
+.intervalos_inicio{}
+.intervalos_fim{}
+
+
+
+
+@font-face {
+    font-family: 'AmaticSC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AmaticSC'), local('AmaticSC'),
+         url('../../content/fonts/AmaticSC-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/AmaticSC-Regular.woff2') format('woff2'),
+         url('../../content/fonts/AmaticSC-Regular.woff') format('woff'),
+         url('../../content/fonts/AmaticSC-Regular.ttf') format('truetype'),
+         url('../../content/fonts/AmaticSC-Regular.svg#OpenSans') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cookie'), local('Cookie'),
+         url('../../content/fonts/Cookie-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/Cookie-Regular.woff2') format('woff2'),
+         url('../../content/fonts/Cookie-Regular.woff') format('woff'),
+         url('../../content/fonts/Cookie-Regular.ttf') format('truetype'),
+         url('../../content/fonts/Cookie-Regular.svg#OpenSans') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Parisienne'), local('Parisienne'),
+         url('../../content/fonts/Parisienne-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/Parisienne-Regular.woff2') format('woff2'),
+         url('../../content/fonts/Parisienne-Regular.woff') format('woff'),
+         url('../../content/fonts/Parisienne-Regular.ttf') format('truetype'),
+         url('../../content/fonts/Parisienne-Regular.svg#OpenSans') format('svg');
+  }
+  
+  @font-face {
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rochester'), local('Rochester'),
+         url('../../content/fonts/Rochester-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../content/fonts/Rochester-Regular.woff2') format('woff2'),
+         url('../../content/fonts/Rochester-Regular.woff') format('woff'),
+         url('../../content/fonts/Rochester-Regular.ttf') format('truetype'),
+         url('../../content/fonts/Rochester-Regular.svg#OpenSans') format('svg');
+  }
+
+
+ */

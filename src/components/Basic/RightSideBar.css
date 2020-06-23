@@ -1,0 +1,52 @@
+/* 
+.rightsidebar-div{
+    padding-top: 37px;    
+    background-color: #4ABDAC;
+    background-color:#f7ffff;
+    color: #f7ffff;
+    color: #4ABDAC;
+    box-shadow: -2px 0px 5px 2px rgba(0, 0, 0, 0.192);
+    position: fixed;
+    right: 0px;
+    width: 25%;
+    height: 100vh;
+
+    z-index: 99;
+}
+
+.closebutton{
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    position: absolute;
+    left: 85%;
+    top: 0;
+    font-size: 32px;
+    color:#4ABDAC;
+    
+    transition: 0.4s;
+}
+
+.closebutton:active{
+    color: rgb(0, 255, 217);
+    outline: none !important;
+    border: none;
+}
+
+.closebutton:hover{
+    color: rgb(0, 255, 217);
+    outline: none !important;
+    border: none;
+}
+
+.closebutton:focus{
+    outline: none !important;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ */
