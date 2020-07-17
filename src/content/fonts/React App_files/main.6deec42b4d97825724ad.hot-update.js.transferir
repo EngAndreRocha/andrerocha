@@ -1,0 +1,178 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/containers/PageAndreRocha.js":
+/*!******************************************!*\
+  !*** ./src/containers/PageAndreRocha.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Page_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Page.css */ "./src/containers/Page.css");
+/* harmony import */ var _Page_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Page_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/claricia_thumbnail.jpg */ "./src/images/claricia_thumbnail.jpg");
+/* harmony import */ var _images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\arlin\\Documents\\Andre\\projects\\andrerocha\\src\\containers\\PageAndreRocha.js";
+
+
+
+/* import postgresql from '../images/postgresql.png';
+import redis from '../images/redis.png';
+import knex from '../images/knex.png';
+import jwt from '../images/jwt.png';
+import nodejs from '../images/nodejs.png';
+import aws from '../images/aws.png';
+import redux from '../images/redux.png';
+import react from '../images/react.png';
+import github from '../images/github.png'; */
+
+const PageAndreRocha = ({
+  props
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "above_the_fold",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "background",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 21
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "background_overlay",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 21
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "signiture",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "rightscroller",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 29
+    }
+  }, "Hello World!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 29
+    }
+  }, "My name is Andr\xE9 from Portugal and I love to make websites! Relentless at problem solving, with a paisson to create new things and always open to new adventures. ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "websites-wrapper",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "websites-div",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 29
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://clariciaeventus.com/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 33
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "thumbnail_img",
+    src: _images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    title: "Using\r Postgresql, \r Redis, \r Nodejs, \r AWS Services, \r React-Redux, \r Reactjs, \r Github, \r Knexjs, \r JWT \r and more...",
+    alt: "claricia thumbnail",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 37
+    }
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 29
+    }
+  }, "Let's create something together!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "email",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 29
+    }
+  }, "rochandre@gmail.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "cell",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 29
+    }
+  }, "+351 925 112 378")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PageAndreRocha);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.6deec42b4d97825724ad.hot-update.js.map

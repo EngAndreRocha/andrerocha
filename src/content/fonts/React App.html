@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3002/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3002/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3002/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3002/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+</style><style type="text/css">/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*/
+</style><style type="text/css">
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.above_the_fold{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    /* justify-items: center; */
+}
+
+.background{
+    background-image: url(/static/media/wallpaper5.f025241c.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.background_overlay{
+    background: rgb(255,255,255);
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%); */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(0,0,0,0.8) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.signiture{
+    background-image: url(/static/media/sign.4c68651f.svg);
+    background-attachment: fixed;
+    background-size: 49vw;
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.rightscroller{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    padding-top: 10vh;
+    /* padding-left: 40px; */
+    background-color: #2f4f4fed;
+}
+
+.center{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.websites-wrapper{
+    width: 49vw;
+}
+
+.websites-div{
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-gap: 30px;
+    border-top-style: solid;
+    /* border-right-style: dotted; */
+    border-bottom-style: solid;
+    /* border-left-style: dotted; */
+    border-width: 1px;
+    border-color: #00000026;
+    padding-left: 40px;
+    padding: 20px 10px 20px 10px;
+    overflow-x: scroll;
+}
+
+.websites-div a{
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    justify-self: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fff0; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.thumbnail_img{
+    width: 255px;
+    height: 155px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px -4px rgba(0,0,0,0.62);
+}
+
+.thumbnail_img:hover {
+    transform: scale(1.05);
+  }
+
+@font-face {
+    font-family: 'Bodoni';
+    font-style: normal;
+    font-weight: normal;
+    src: local('bodoni'), local('bodoni'),
+         url(/static/media/BodoniFLF-Roman.a5c77dca.ttf) format('TrueType')
+}
+
+@font-face {
+    font-family: 'bit';
+    font-style: normal;
+    font-weight: normal;
+    src: local('bit'), local('bit'),
+         url(/static/media/8bitOperatorPlus8-Bold.862ab405.ttf) format('TrueType')
+}
+
+@font-face {
+    font-family: 'classybeautiful';
+    font-style: normal;
+    font-weight: normal;
+    src: local('classybeautiful'), local('classybeautiful'),
+         url(/static/media/ClassyBeautiful-Regular.24582e13.ttf) format('TrueType')
+}
+
+@font-face {
+    font-family: 'justsunday';
+    font-style: normal;
+    font-weight: normal;
+    src: local('justsunday'), local('justsunday'),
+         url(/static/media/JustSunday-Bold.9f8ffd3b.ttf) format('TrueType')
+}
+
+.icons_div{
+    display: inline-block;
+    margin: 0px;
+    max-width: 600px;
+}
+
+.icons_div a{
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon_image{
+    object-fit: scale-down;
+    max-width: 132px;
+    min-width: 42px;
+    max-height: 42px;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .above_the_fold{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .websites-wrapper{
+        width: 100vw;
+    }
+
+    .background{
+    }
+    
+    .background_overlay{
+    }
+    
+    .signiture{
+    }
+    
+    .rightscroller{
+        padding-top: 10vh;
+        background-color: #2f4f4fed;
+    }
+}
+
+
+</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="above_the_fold"><div class="background"></div><div class="background_overlay"></div><div class="signiture"></div><div class="rightscroller"><div class="center"><h1>Hello World!</h1><span>My name is André from Portugal and I love to make websites! Relentless at problem solving, with a paisson to create new things and always open to new adventures. </span></div><div class="websites-wrapper"><div class="websites-div"><a href="http://clariciaeventus.com/"><img class="thumbnail_img" src="./React App_files/claricia_thumbnail.904bb9ba.jpg" title="Using Postgresql,  Redis,  Nodejs,  AWS Services,  React-Redux,  Reactjs,  Github,  Knexjs,  JWT  and more..." alt="claricia thumbnail"></a></div></div><div class="center"><h1>Let's create something together!</h1><p class="email">rochandre@gmail.com</p><p class="cell">+351 925 112 378</p></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js.transferir"></script><script src="./React App_files/1.chunk.js.transferir"></script><script src="./React App_files/main.chunk.js.transferir"></script><script src="./React App_files/main.6deec42b4d97825724ad.hot-update.js.transferir"></script>
+
+</body></html>

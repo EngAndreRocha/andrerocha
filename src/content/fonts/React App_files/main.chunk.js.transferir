@@ -1,0 +1,692 @@
+(this["webpackJsonpandrerocha"] = this["webpackJsonpandrerocha"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/App.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/containers/App.css ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/*.App {\r\n  text-align: center;\r\n}\r\n\r\n.App-logo {\r\n  height: 40vmin;\r\n  pointer-events: none;\r\n}\r\n\r\n@media (prefers-reduced-motion: no-preference) {\r\n  .App-logo {\r\n    animation: App-logo-spin infinite 20s linear;\r\n  }\r\n}\r\n\r\n\r\n@keyframes App-logo-spin {\r\n  from {\r\n    transform: rotate(0deg);\r\n  }\r\n  to {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n\r\n*/\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/Page.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/containers/Page.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../images/wallpaper5.jpg */ "./src/images/wallpaper5.jpg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../images/sign.svg */ "./src/images/sign.svg");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../content/fonts/BodoniFLF-Roman.ttf */ "./src/content/fonts/BodoniFLF-Roman.ttf");
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ../content/fonts/8bitOperatorPlus8-Bold.ttf */ "./src/content/fonts/8bitOperatorPlus8-Bold.ttf");
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ../content/fonts/ClassyBeautiful-Regular.ttf */ "./src/content/fonts/ClassyBeautiful-Regular.ttf");
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ../content/fonts/JustSunday-Bold.ttf */ "./src/content/fonts/JustSunday-Bold.ttf");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);
+// Module
+exports.push([module.i, "\r\nbody{\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: white;\r\n}\r\n\r\n.above_the_fold{\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    min-height: 100vh;\r\n    /* justify-items: center; */\r\n}\r\n\r\n.background{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-attachment: fixed;\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    grid-column: 1 / span 2;\r\n    grid-row: 1 / span 1;\r\n}\r\n\r\n.background_overlay{\r\n    background: rgb(255,255,255);\r\n    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%); */\r\n    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(0,0,0,0.8) 80%);\r\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#ffffff\",endColorstr=\"#000000\",GradientType=1);\r\n    grid-column: 1 / span 2;\r\n    grid-row: 1 / span 1;\r\n}\r\n\r\n.signiture{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n    background-attachment: fixed;\r\n    background-size: 49vw;\r\n    background-repeat: no-repeat;\r\n    background-position: 1% 50%;\r\n    grid-column: 1 / span 2;\r\n    grid-row: 1 / span 1;\r\n}\r\n\r\n.rightscroller{\r\n    grid-column: 2 / span 1;\r\n    grid-row: 1 / span 1;\r\n    padding-top: 10vh;\r\n    /* padding-left: 40px; */\r\n    background-color: #2f4f4fed;\r\n}\r\n\r\n.center{\r\n    padding-bottom: 20px;\r\n    padding-top: 20px;\r\n    text-align: center;\r\n}\r\n\r\n.websites-wrapper{\r\n    width: 49vw;\r\n}\r\n\r\n.websites-div{\r\n    display: grid;\r\n    grid-auto-flow: column dense;\r\n    grid-gap: 30px;\r\n    border-top-style: solid;\r\n    /* border-right-style: dotted; */\r\n    border-bottom-style: solid;\r\n    /* border-left-style: dotted; */\r\n    border-width: 1px;\r\n    border-color: #00000026;\r\n    padding-left: 40px;\r\n    padding: 20px 10px 20px 10px;\r\n    overflow-x: scroll;\r\n}\r\n\r\n.websites-div a{\r\n    max-width: -moz-fit-content;\r\n    max-width: fit-content;\r\n    justify-self: center;\r\n}\r\n\r\n/* width */\r\n::-webkit-scrollbar {\r\n    width: 10px;\r\n  }\r\n  \r\n  /* Track */\r\n  ::-webkit-scrollbar-track {\r\n    background: #f1f1f100;; \r\n  }\r\n   \r\n  /* Handle */\r\n  ::-webkit-scrollbar-thumb {\r\n    background: #fff0; \r\n  }\r\n  \r\n  /* Handle on hover */\r\n  ::-webkit-scrollbar-thumb:hover {\r\n    background: #555; \r\n  }\r\n\r\n.thumbnail_img{\r\n    width: 255px;\r\n    height: 155px;\r\n    border-radius: 10px;\r\n    box-shadow: 10px 10px 4px -4px rgba(0,0,0,0.62);\r\n}\r\n\r\n.thumbnail_img:hover {\r\n    transform: scale(1.05);\r\n  }\r\n\r\n@font-face {\r\n    font-family: 'Bodoni';\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    src: local('bodoni'), local('bodoni'),\r\n         url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format('TrueType')\r\n}\r\n\r\n@font-face {\r\n    font-family: 'bit';\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    src: local('bit'), local('bit'),\r\n         url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") format('TrueType')\r\n}\r\n\r\n@font-face {\r\n    font-family: 'classybeautiful';\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    src: local('classybeautiful'), local('classybeautiful'),\r\n         url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") format('TrueType')\r\n}\r\n\r\n@font-face {\r\n    font-family: 'justsunday';\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    src: local('justsunday'), local('justsunday'),\r\n         url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ") format('TrueType')\r\n}\r\n\r\n.icons_div{\r\n    display: inline-block;\r\n    margin: 0px;\r\n    max-width: 600px;\r\n}\r\n\r\n.icons_div a{\r\n    align-self: center;\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n\r\n.icon_image{\r\n    object-fit: scale-down;\r\n    max-width: 132px;\r\n    min-width: 42px;\r\n    max-height: 42px;\r\n    border-radius: 8px;\r\n}\r\n\r\n\r\n@media only screen and (max-width: 766px) {\r\n    .above_the_fold{\r\n        display: grid;\r\n        grid-template-columns: 1fr;\r\n    }\r\n\r\n    .websites-wrapper{\r\n        width: 100vw;\r\n    }\r\n\r\n    .background{\r\n    }\r\n    \r\n    .background_overlay{\r\n    }\r\n    \r\n    .signiture{\r\n    }\r\n    \r\n    .rightscroller{\r\n        padding-top: 10vh;\r\n        background-color: #2f4f4fed;\r\n    }\r\n}\r\n\r\n\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/containers/App.css":
+/*!********************************!*\
+  !*** ./src/containers/App.css ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/App.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/containers/App.js":
+/*!*******************************!*\
+  !*** ./src/containers/App.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/containers/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _PageAndreRocha__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PageAndreRocha */ "./src/containers/PageAndreRocha.js");
+var _jsxFileName = "C:\\Users\\arlin\\Documents\\Andre\\projects\\andrerocha\\src\\containers\\App.js";
+ //import logo from '../logo.svg';
+
+
+
+
+function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PageAndreRocha__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/containers/Page.css":
+/*!*********************************!*\
+  !*** ./src/containers/Page.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Page.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/Page.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Page.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/Page.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Page.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/Page.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/containers/PageAndreRocha.js":
+/*!******************************************!*\
+  !*** ./src/containers/PageAndreRocha.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Page_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Page.css */ "./src/containers/Page.css");
+/* harmony import */ var _Page_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Page_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/claricia_thumbnail.jpg */ "./src/images/claricia_thumbnail.jpg");
+/* harmony import */ var _images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\arlin\\Documents\\Andre\\projects\\andrerocha\\src\\containers\\PageAndreRocha.js";
+
+
+
+/* import postgresql from '../images/postgresql.png';
+import redis from '../images/redis.png';
+import knex from '../images/knex.png';
+import jwt from '../images/jwt.png';
+import nodejs from '../images/nodejs.png';
+import aws from '../images/aws.png';
+import redux from '../images/redux.png';
+import react from '../images/react.png';
+import github from '../images/github.png'; */
+
+const PageAndreRocha = ({
+  props
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "above_the_fold",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "background",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 21
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "background_overlay",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 21
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "signiture",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "rightscroller",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 29
+    }
+  }, "Hello World!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 29
+    }
+  }, "My name is Andr\xE9 from Portugal and I love to make websites! Relentless at problem solving, with a paisson to create new things and always open to new adventures. ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "websites-wrapper",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "websites-div",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 29
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://clariciaeventus.com/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 33
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "thumbnail_img",
+    src: _images_claricia_thumbnail_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    title: "Using\r Postgresql, \r Redis, \r Nodejs, \r AWS Services, \r React-Redux, \r Reactjs, \r Github, \r Knexjs, \r JWT \r and more...",
+    alt: "claricia thumbnail",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 37
+    }
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 29
+    }
+  }, "Let's create something together!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "email",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 29
+    }
+  }, "rochandre@gmail.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "cell",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 29
+    }
+  }, "+351 925 112 378")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PageAndreRocha);
+
+/***/ }),
+
+/***/ "./src/content/fonts/8bitOperatorPlus8-Bold.ttf":
+/*!******************************************************!*\
+  !*** ./src/content/fonts/8bitOperatorPlus8-Bold.ttf ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/8bitOperatorPlus8-Bold.862ab405.ttf";
+
+/***/ }),
+
+/***/ "./src/content/fonts/BodoniFLF-Roman.ttf":
+/*!***********************************************!*\
+  !*** ./src/content/fonts/BodoniFLF-Roman.ttf ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/BodoniFLF-Roman.a5c77dca.ttf";
+
+/***/ }),
+
+/***/ "./src/content/fonts/ClassyBeautiful-Regular.ttf":
+/*!*******************************************************!*\
+  !*** ./src/content/fonts/ClassyBeautiful-Regular.ttf ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ClassyBeautiful-Regular.24582e13.ttf";
+
+/***/ }),
+
+/***/ "./src/content/fonts/JustSunday-Bold.ttf":
+/*!***********************************************!*\
+  !*** ./src/content/fonts/JustSunday-Bold.ttf ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/JustSunday-Bold.9f8ffd3b.ttf";
+
+/***/ }),
+
+/***/ "./src/images/claricia_thumbnail.jpg":
+/*!*******************************************!*\
+  !*** ./src/images/claricia_thumbnail.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/claricia_thumbnail.904bb9ba.jpg";
+
+/***/ }),
+
+/***/ "./src/images/sign.svg":
+/*!*****************************!*\
+  !*** ./src/images/sign.svg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/sign.4c68651f.svg";
+
+/***/ }),
+
+/***/ "./src/images/wallpaper5.jpg":
+/*!***********************************!*\
+  !*** ./src/images/wallpaper5.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/wallpaper5.f025241c.jpg";
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _containers_App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./containers/App */ "./src/containers/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Users\\arlin\\Documents\\Andre\\projects\\andrerocha\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 5
+  }
+})), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.0/8 are considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl, {
+    headers: {
+      'Service-Worker': 'script'
+    }
+  }).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    }).catch(error => {
+      console.error(error.message);
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\arlin\Documents\Andre\projects\andrerocha\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\arlin\Documents\Andre\projects\andrerocha\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\arlin\Documents\Andre\projects\andrerocha\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map
