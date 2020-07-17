@@ -1,2 +1,186 @@
 
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.above_the_fold{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    /* justify-items: center; */
+}
+
+.background{
+    background-image: url("../images/wallpaper5.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.background_overlay{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%);
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%); */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(0,0,0,0.8) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.signiture{
+    background-image: url("../images/sign.svg");
+    background-attachment: fixed;
+    background-size: 49vw;
+    background-repeat: no-repeat;
+    background-position: 1% 50%;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.rightscroller{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    padding-top: 10vh;
+    /* padding-left: 40px; */
+    background-color: #2f4f4fed;
+}
+
+.center{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.websites-wrapper{
+    width: 49vw;
+}
+
+.websites-div{
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-gap: 30px;
+    border-top-style: solid;
+    /* border-right-style: dotted; */
+    border-bottom-style: solid;
+    /* border-left-style: dotted; */
+    border-width: 1px;
+    border-color: #00000026;
+    padding-left: 40px;
+    padding: 20px 10px 20px 10px;
+    overflow-x: scroll;
+}
+
+.websites-div a{
+    max-width: fit-content;
+    justify-self: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fff0; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.thumbnail_img{
+    width: 255px;
+    height: 155px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 10px 10px 4px -4px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 10px 4px -4px rgba(0,0,0,0.62);
+    box-shadow: 10px 10px 4px -4px rgba(0,0,0,0.62);
+}
+
+.thumbnail_img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+@font-face {
+    font-family: 'Bodoni';
+    font-style: normal;
+    font-weight: normal;
+    src: local('bodoni'), local('bodoni'),
+         url('../content/fonts/BodoniFLF-Roman.ttf') format('TrueType')
+}
+
+@font-face {
+    font-family: 'bit';
+    font-style: normal;
+    font-weight: normal;
+    src: local('bit'), local('bit'),
+         url('../content/fonts/8bitOperatorPlus8-Bold.ttf') format('TrueType')
+}
+
+@font-face {
+    font-family: 'classybeautiful';
+    font-style: normal;
+    font-weight: normal;
+    src: local('classybeautiful'), local('classybeautiful'),
+         url('../content/fonts/ClassyBeautiful-Regular.ttf') format('TrueType')
+}
+
+@font-face {
+    font-family: 'justsunday';
+    font-style: normal;
+    font-weight: normal;
+    src: local('justsunday'), local('justsunday'),
+         url('../content/fonts/JustSunday-Bold.ttf') format('TrueType')
+}
+
+.icons_div{
+    display: inline-block;
+    margin: 0px;
+    max-width: 600px;
+}
+
+.icons_div a{
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon_image{
+    object-fit: scale-down;
+    max-width: 132px;
+    min-width: 42px;
+    max-height: 42px;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .above_the_fold{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .websites-wrapper{
+        width: 100vw;
+    }
+
+    .rightscroller{
+        padding-top: 10vh;
+        background-color: #2f4f4fed;
+    }
+}
+
 
