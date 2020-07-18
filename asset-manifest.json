@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/andrerocha/static/css/main.c566ef1b.chunk.css",
+    "main.js": "/andrerocha/static/js/main.1c864ed3.chunk.js",
+    "main.js.map": "/andrerocha/static/js/main.1c864ed3.chunk.js.map",
+    "runtime-main.js": "/andrerocha/static/js/runtime-main.8203ca49.js",
+    "runtime-main.js.map": "/andrerocha/static/js/runtime-main.8203ca49.js.map",
+    "static/js/2.af00627f.chunk.js": "/andrerocha/static/js/2.af00627f.chunk.js",
+    "static/js/2.af00627f.chunk.js.map": "/andrerocha/static/js/2.af00627f.chunk.js.map",
+    "index.html": "/andrerocha/index.html",
+    "precache-manifest.7648bdc6f900ae83c35d8da1b8d1d24b.js": "/andrerocha/precache-manifest.7648bdc6f900ae83c35d8da1b8d1d24b.js",
+    "service-worker.js": "/andrerocha/service-worker.js",
+    "static/css/main.c566ef1b.chunk.css.map": "/andrerocha/static/css/main.c566ef1b.chunk.css.map",
+    "static/js/2.af00627f.chunk.js.LICENSE.txt": "/andrerocha/static/js/2.af00627f.chunk.js.LICENSE.txt",
+    "static/media/Page.css": "/andrerocha/static/media/wallpaper5.f025241c.jpg",
+    "static/media/claricia_thumbnail.jpg": "/andrerocha/static/media/claricia_thumbnail.904bb9ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8203ca49.js",
+    "static/js/2.af00627f.chunk.js",
+    "static/css/main.c566ef1b.chunk.css",
+    "static/js/main.1c864ed3.chunk.js"
+  ]
+}
