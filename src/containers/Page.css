@@ -173,8 +173,33 @@ body{
     }
 
     .websites-wrapper{
-        width: 100vw;
+        width: auto;
     }
+
+    h1{
+        font-size: 1.6em;
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+
+    .thumbnail_img {
+        height: 90px;
+    }
+
+    .icon_image {
+        object-fit: scale-down;
+        max-width: 44px;
+        max-height: 35px;
+        border-radius: 8px;
+    }
+
+    .icons_div a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 
