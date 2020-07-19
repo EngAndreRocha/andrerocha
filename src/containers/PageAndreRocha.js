@@ -78,7 +78,7 @@ const PageAndreRocha = ({props}) => {
                                     </a>
                                 </div>
                             </div> 
-                        <div className="center">
+                        <div className="contacts">
                             <h1>Let's create something together!</h1>
                             <p className="email">rochandre@gmail.com</p>
                             <p className="cell">+351 925 112 378</p>

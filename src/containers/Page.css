@@ -200,6 +200,17 @@ body{
         margin-right: 0px;
     }
 
+    .signiture {
+        background-image: none;
+    }
+
+    .contacts{
+        background-image: url("../images/sign.svg");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 195px;
+    }
 }
 
 
