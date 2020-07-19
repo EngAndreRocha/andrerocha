@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e7e3300f99bcc9688957adaa627469d",
+    "revision": "4397d99b6c697543a4c21ecbf283103a",
     "url": "/andrerocha/index.html"
   },
   {
-    "revision": "4c3b9da7bdb27800b04c",
-    "url": "/andrerocha/static/css/main.92c96a31.chunk.css"
+    "revision": "ffaf38dec4935e20b1de",
+    "url": "/andrerocha/static/css/main.9d44e9ec.chunk.css"
   },
   {
     "revision": "f332090c9ef112fb0c02",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrerocha/static/js/2.c118fbee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c3b9da7bdb27800b04c",
+    "revision": "ffaf38dec4935e20b1de",
     "url": "/andrerocha/static/js/main.c5e50f7a.chunk.js"
   },
   {
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "391b6826c2d27d224c534fe81a650881",
     "url": "/andrerocha/static/media/sign.391b6826.svg"
+  },
+  {
+    "revision": "5001377d930c33ca5d1edd4c153b3177",
+    "url": "/andrerocha/static/media/sign2.5001377d.svg"
   },
   {
     "revision": "f025241c3de59ebf3843873fd45f8660",

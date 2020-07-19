@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andrerocha/static/css/main.92c96a31.chunk.css",
+    "main.css": "/andrerocha/static/css/main.9d44e9ec.chunk.css",
     "main.js": "/andrerocha/static/js/main.c5e50f7a.chunk.js",
     "main.js.map": "/andrerocha/static/js/main.c5e50f7a.chunk.js.map",
     "runtime-main.js": "/andrerocha/static/js/runtime-main.8203ca49.js",
@@ -8,9 +8,9 @@
     "static/js/2.c118fbee.chunk.js": "/andrerocha/static/js/2.c118fbee.chunk.js",
     "static/js/2.c118fbee.chunk.js.map": "/andrerocha/static/js/2.c118fbee.chunk.js.map",
     "index.html": "/andrerocha/index.html",
-    "precache-manifest.9b95aaeb5bb7898fcc1b3bd075860a7a.js": "/andrerocha/precache-manifest.9b95aaeb5bb7898fcc1b3bd075860a7a.js",
+    "precache-manifest.1dae6dc39adbe5dee37ae68b6e56ee72.js": "/andrerocha/precache-manifest.1dae6dc39adbe5dee37ae68b6e56ee72.js",
     "service-worker.js": "/andrerocha/service-worker.js",
-    "static/css/main.92c96a31.chunk.css.map": "/andrerocha/static/css/main.92c96a31.chunk.css.map",
+    "static/css/main.9d44e9ec.chunk.css.map": "/andrerocha/static/css/main.9d44e9ec.chunk.css.map",
     "static/js/2.c118fbee.chunk.js.LICENSE.txt": "/andrerocha/static/js/2.c118fbee.chunk.js.LICENSE.txt",
     "static/media/Page.css": "/andrerocha/static/media/wallpaper5.f025241c.jpg",
     "static/media/aws.png": "/andrerocha/static/media/aws.63d6ecd7.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8203ca49.js",
     "static/js/2.c118fbee.chunk.js",
-    "static/css/main.92c96a31.chunk.css",
+    "static/css/main.9d44e9ec.chunk.css",
     "static/js/main.c5e50f7a.chunk.js"
   ]
 }
