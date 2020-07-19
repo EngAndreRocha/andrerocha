@@ -6,7 +6,7 @@ body{
 
 .above_the_fold{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     min-height: 100vh;
     /* justify-items: center; */
 }
@@ -24,7 +24,6 @@ body{
     background: rgb(255,255,255);
     background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%);
     background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%);
-    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 40%, rgba(66,66,66,0.3225665266106442) 55%, rgba(0,0,0,0.7539390756302521) 100%); */
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(0,0,0,0.8) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
     grid-column: 1 / span 2;
@@ -44,19 +43,17 @@ body{
 .rightscroller{
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-    padding-top: 10vh;
-    /* padding-left: 40px; */
-    background-color: #2f4f4fed;
 }
 
-.center{
-    padding-bottom: 20px;
-    padding-top: 20px;
+.rightscroller > div{
+    background-color: #2f4f4f6b;
+    padding: 10px;
+    margin: 20px 20px;
     text-align: center;
 }
 
 .websites-wrapper{
-    width: 49vw;
+    width: 45vw;
 }
 
 .websites-div{
@@ -79,6 +76,9 @@ body{
     justify-self: center;
 }
 
+
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -100,8 +100,7 @@ body{
   }
 
 .thumbnail_img{
-    width: 255px;
-    height: 155px;
+    height: 100px;
     border-radius: 10px;
 
     -webkit-box-shadow: 10px 10px 4px -4px rgba(0,0,0,0.62);
@@ -175,11 +174,6 @@ body{
 
     .websites-wrapper{
         width: 100vw;
-    }
-
-    .rightscroller{
-        padding-top: 10vh;
-        background-color: #2f4f4fed;
     }
 }
 
