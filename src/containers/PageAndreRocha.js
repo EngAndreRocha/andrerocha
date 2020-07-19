@@ -4,7 +4,7 @@ import './Page.css';
 
 import claricia_thumbnail from '../images/claricia_thumbnail.jpg';
 
-/* import postgresql from '../images/postgresql.png';
+import postgresql from '../images/postgresql.png';
 import redis from '../images/redis.png';
 import knex from '../images/knex.png';
 import jwt from '../images/jwt.png';
@@ -12,7 +12,7 @@ import nodejs from '../images/nodejs.png';
 import aws from '../images/aws.png';
 import redux from '../images/redux.png';
 import react from '../images/react.png';
-import github from '../images/github.png'; */
+import github from '../images/github.png';
 
 
 const PageAndreRocha = ({props}) => {
@@ -26,9 +26,10 @@ const PageAndreRocha = ({props}) => {
                     <div className="rightscroller">
                         <div className="center">
                             <h1>Hello World!</h1>
-                            <span>My name is André from Portugal and I love to make websites! Relentless at problem solving, with a paisson to create new things and always open to new adventures. </span>
+                            <p>My name is André from Portugal and I love to make websites! Relentless at problem solving, with a paisson to create new things and always open to new adventures. </p>
                         </div>
                         <div className="websites-wrapper">
+                            <h1>Portfolio:</h1>
                             <div className="websites-div">
                                 <a href="http://clariciaeventus.com/">
                                     <img className="thumbnail_img" src={claricia_thumbnail} title="Using
@@ -44,8 +45,9 @@ const PageAndreRocha = ({props}) => {
                                     and more..." alt="claricia thumbnail"></img>
                                 </a>
                             </div>
-                            {/* <div className="using-div">
-                                <h5>With this...</h5>
+                        </div>
+                        <div className="using-div">
+                                <h1>Designed With:</h1>
                                 <div className="icons_div">
                                     <a href="https://www.postgresql.org/">
                                         <img className="icon_image" src={postgresql} alt="postgresql"></img>
@@ -75,9 +77,7 @@ const PageAndreRocha = ({props}) => {
                                         <img className="icon_image" src={jwt} alt="jwt" ></img>
                                     </a>
                                 </div>
-                                <h5>...and some other tools.</h5>
-                            </div> */}
-                        </div>
+                            </div> 
                         <div className="center">
                             <h1>Let's create something together!</h1>
                             <p className="email">rochandre@gmail.com</p>
